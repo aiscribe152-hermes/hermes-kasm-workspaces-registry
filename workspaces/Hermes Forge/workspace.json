@@ -1,0 +1,28 @@
+{
+  "description": "Hermes Forge is a Kasm desktop workspace for CAD, mechanical design, 3D modeling, OpenSCAD, FreeCAD, Blender, Python, git, curl, jq, and build tooling.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "hermes-forge.svg",
+  "run_config": {
+    "hostname": "hermes-forge"
+  },
+  "categories": [
+    "Development",
+    "Productivity",
+    "Engineering"
+  ],
+  "friendly_name": "Hermes Forge",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.0",
+      "uncompressed_size_mb": 6500,
+      "available_tags": [
+        "1.0",
+        "latest"
+      ]
+    }
+  ]
+}

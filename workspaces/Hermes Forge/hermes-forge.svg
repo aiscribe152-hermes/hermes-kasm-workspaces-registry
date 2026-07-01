@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Hermes Forge">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#162033"/>
+      <stop offset="1" stop-color="#31465f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="44" fill="url(#bg)"/>
+  <path d="M58 184h140v18H58z" fill="#d1d5db" opacity=".9"/>
+  <path d="M72 82l32-28 56 56-24 24-56-56-8 8z" fill="url(#accent)"/>
+  <path d="M145 53l58 58-20 20-58-58z" fill="#e5e7eb" opacity=".95"/>
+  <path d="M80 164l40-40 20 20-40 40H80z" fill="#93c5fd"/>
+  <circle cx="174" cy="72" r="13" fill="#111827" opacity=".55"/>
+  <path d="M56 206h144" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+</svg>
