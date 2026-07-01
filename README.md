@@ -1,6 +1,6 @@
 # Hermes Kasm Workspaces Registry
 
-This repository is Frank's custom Kasm Workspaces registry for Hermes engineering workspaces.
+This repository is my custom Kasm Workspaces registry for Hermes engineering workspaces.
 
 Registry site:
 
