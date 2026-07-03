@@ -11,9 +11,9 @@ https://aiscribe152-hermes.github.io/hermes-kasm-workspaces-registry/
 Current workspace entries:
 
 - Hermes Forge
-  - Image: `ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.0`
-  - Tags: `1.0`, `latest`
-  - Tools: OpenSCAD, FreeCAD, Blender, git, Python, curl, jq, and build tools
+  - Image: `ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.1`
+  - Tags: `1.1`, `latest`
+  - Tools: OpenSCAD, FreeCAD, Blender, Bambu Studio, git, Python, curl, jq, and build tools
 
 ## Add this registry to Kasm Workspaces
 
@@ -36,7 +36,7 @@ Current workspace entries:
 The Forge workspace image is hosted at GitHub Container Registry:
 
 ```text
-ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.0
+ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.1
 ghcr.io/aiscribe152-hermes/hermes-kasm-forge:latest
 ```
 
