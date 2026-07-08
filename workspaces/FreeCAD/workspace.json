@@ -1,0 +1,27 @@
+{
+  "description": "FreeCAD is a single-application Kasm desktop workspace for parametric CAD and mechanical design, split out from Hermes Forge to keep the workspace focused and smaller.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "freecad.svg",
+  "run_config": {
+    "hostname": "freecad"
+  },
+  "categories": [
+    "Engineering",
+    "Productivity"
+  ],
+  "friendly_name": "FreeCAD",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "ghcr.io/aiscribe152-hermes/hermes-kasm-freecad:1.0",
+      "uncompressed_size_mb": 1900,
+      "available_tags": [
+        "1.0",
+        "latest"
+      ]
+    }
+  ]
+}

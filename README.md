@@ -14,6 +14,10 @@ Current workspace entries:
   - Image: `ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.2`
   - Tags: `1.2`, `latest`
   - Tools: OpenSCAD, FreeCAD, Blender, Bambu Studio, git, Python, curl, jq, and build tools
+- FreeCAD
+  - Image: `ghcr.io/aiscribe152-hermes/hermes-kasm-freecad:1.0`
+  - Tags: `1.0`, `latest`
+  - Tools: FreeCAD
 
 ## Add this registry to Kasm Workspaces
 
@@ -38,6 +42,8 @@ The Forge workspace image is hosted at GitHub Container Registry:
 ```text
 ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.2
 ghcr.io/aiscribe152-hermes/hermes-kasm-forge:latest
+ghcr.io/aiscribe152-hermes/hermes-kasm-freecad:1.0
+ghcr.io/aiscribe152-hermes/hermes-kasm-freecad:latest
 ```
 
 If Kasm cannot pull the image anonymously, either make the GHCR package public or configure a Kasm Docker registry credential for `ghcr.io` with package read access.

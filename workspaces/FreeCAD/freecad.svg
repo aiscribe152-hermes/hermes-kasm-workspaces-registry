@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="FreeCAD">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f5fbf"/>
+      <stop offset="1" stop-color="#0b2d59"/>
+    </linearGradient>
+    <linearGradient id="gear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4b4b"/>
+      <stop offset="1" stop-color="#b91524"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#bg)"/>
+  <path d="M32 30h58v16H50v18h34v16H50v28H32z" fill="#ffffff"/>
+  <g transform="translate(86 88)">
+    <circle r="24" fill="url(#gear)"/>
+    <circle r="10" fill="#ffffff" opacity="0.95"/>
+    <g fill="#d61f32">
+      <rect x="-4" y="-34" width="8" height="14" rx="2"/>
+      <rect x="-4" y="20" width="8" height="14" rx="2"/>
+      <rect x="20" y="-4" width="14" height="8" rx="2"/>
+      <rect x="-34" y="-4" width="14" height="8" rx="2"/>
+    </g>
+  </g>
+</svg>
