@@ -16,10 +16,10 @@
   "compatibility": [
     {
       "version": "1.19.x",
-      "image": "ghcr.io/aiscribe152-hermes/kasm-openscad:1.1",
+      "image": "ghcr.io/aiscribe152-hermes/kasm-openscad:1.2",
       "uncompressed_size_mb": 1500,
       "available_tags": [
-        "1.1",
+        "1.2",
         "latest"
       ]
     }

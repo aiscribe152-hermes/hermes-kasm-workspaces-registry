@@ -1,5 +1,5 @@
 {
-  "description": "Bambu Studio is a single-application Kasm desktop workspace for slicing and 3D printing workflows, split out from Hermes Forge to keep the workspace focused and smaller.",
+  "description": "Bambu Studio is a single-application Kasm desktop workspace for slicing and 3D printing workflows, with a configured default Chrome browser for Bambu cloud sign-in.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "bambu-studio.svg",
   "run_config": {
@@ -16,10 +16,10 @@
   "compatibility": [
     {
       "version": "1.19.x",
-      "image": "ghcr.io/aiscribe152-hermes/kasm-bambu-studio:1.1",
-      "uncompressed_size_mb": 2500,
+      "image": "ghcr.io/aiscribe152-hermes/kasm-bambu-studio:1.2",
+      "uncompressed_size_mb": 3200,
       "available_tags": [
-        "1.1",
+        "1.2",
         "latest"
       ]
     }

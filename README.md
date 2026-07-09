@@ -16,16 +16,16 @@ Current workspace entries:
   - Tools: OpenSCAD, FreeCAD, Blender, Bambu Studio, git, Python, curl, jq, and build tools
   - Status: retained until explicitly retired
 - FreeCAD
-  - Image: `ghcr.io/aiscribe152-hermes/kasm-freecad:1.1`
-  - Tags: `1.1`, `latest`
+  - Image: `ghcr.io/aiscribe152-hermes/kasm-freecad:1.2`
+  - Tags: `1.2`, `latest`
   - Tools: FreeCAD
 - OpenSCAD
-  - Image: `ghcr.io/aiscribe152-hermes/kasm-openscad:1.1`
-  - Tags: `1.1`, `latest`
+  - Image: `ghcr.io/aiscribe152-hermes/kasm-openscad:1.2`
+  - Tags: `1.2`, `latest`
   - Tools: OpenSCAD
 - Bambu Studio
-  - Image: `ghcr.io/aiscribe152-hermes/kasm-bambu-studio:1.1`
-  - Tags: `1.1`, `latest`
+  - Image: `ghcr.io/aiscribe152-hermes/kasm-bambu-studio:1.2`
+  - Tags: `1.2`, `latest`
   - Tools: Bambu Studio
 
 Standalone app images use the shorter `kasm-app_name` naming convention rather than `hermes-kasm-app_name`.
@@ -54,11 +54,11 @@ Workspace images are hosted at GitHub Container Registry:
 ```text
 ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.2
 ghcr.io/aiscribe152-hermes/hermes-kasm-forge:latest
-ghcr.io/aiscribe152-hermes/kasm-freecad:1.1
+ghcr.io/aiscribe152-hermes/kasm-freecad:1.2
 ghcr.io/aiscribe152-hermes/kasm-freecad:latest
-ghcr.io/aiscribe152-hermes/kasm-openscad:1.1
+ghcr.io/aiscribe152-hermes/kasm-openscad:1.2
 ghcr.io/aiscribe152-hermes/kasm-openscad:latest
-ghcr.io/aiscribe152-hermes/kasm-bambu-studio:1.1
+ghcr.io/aiscribe152-hermes/kasm-bambu-studio:1.2
 ghcr.io/aiscribe152-hermes/kasm-bambu-studio:latest
 ```
 
