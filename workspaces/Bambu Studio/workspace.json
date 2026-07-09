@@ -17,7 +17,7 @@
     {
       "version": "1.19.x",
       "image": "ghcr.io/aiscribe152-hermes/kasm-bambu-studio:1.2",
-      "uncompressed_size_mb": 3200,
+      "uncompressed_size_mb": 5580,
       "available_tags": [
         "1.2",
         "latest"

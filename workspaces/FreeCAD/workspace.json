@@ -17,7 +17,7 @@
     {
       "version": "1.19.x",
       "image": "ghcr.io/aiscribe152-hermes/kasm-freecad:1.2",
-      "uncompressed_size_mb": 1900,
+      "uncompressed_size_mb": 5590,
       "available_tags": [
         "1.2",
         "latest"

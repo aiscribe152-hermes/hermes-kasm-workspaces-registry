@@ -17,7 +17,7 @@
     {
       "version": "1.19.x",
       "image": "ghcr.io/aiscribe152-hermes/kasm-openscad:1.2",
-      "uncompressed_size_mb": 1500,
+      "uncompressed_size_mb": 4030,
       "available_tags": [
         "1.2",
         "latest"

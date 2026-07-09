@@ -18,7 +18,7 @@
     {
       "version": "1.19.x",
       "image": "ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.2",
-      "uncompressed_size_mb": 7500,
+      "uncompressed_size_mb": 10200,
       "available_tags": [
         "1.2",
         "latest"
