@@ -23,6 +23,10 @@ Current workspace entries:
   - Image: `ghcr.io/aiscribe152-hermes/kasm-openscad:1.1`
   - Tags: `1.1`, `latest`
   - Tools: OpenSCAD
+- Bambu Studio
+  - Image: `ghcr.io/aiscribe152-hermes/kasm-bambu-studio:1.1`
+  - Tags: `1.1`, `latest`
+  - Tools: Bambu Studio
 
 Standalone app images use the shorter `kasm-app_name` naming convention rather than `hermes-kasm-app_name`.
 They also auto-launch the application when the Kasm session starts.
@@ -41,7 +45,7 @@ They also auto-launch the application when the Kasm session starts.
 
 6. Click `Add Registry`.
 7. Use the registry filter/icon to show the Hermes registry entries.
-8. Add/import the app workspace you want, such as `FreeCAD` or `OpenSCAD`.
+8. Add/import the app workspace you want, such as `FreeCAD`, `OpenSCAD`, or `Bambu Studio`.
 
 ## GHCR access
 
@@ -54,6 +58,8 @@ ghcr.io/aiscribe152-hermes/kasm-freecad:1.1
 ghcr.io/aiscribe152-hermes/kasm-freecad:latest
 ghcr.io/aiscribe152-hermes/kasm-openscad:1.1
 ghcr.io/aiscribe152-hermes/kasm-openscad:latest
+ghcr.io/aiscribe152-hermes/kasm-bambu-studio:1.1
+ghcr.io/aiscribe152-hermes/kasm-bambu-studio:latest
 ```
 
 If Kasm cannot pull the image anonymously, either make the GHCR package public or configure a Kasm Docker registry credential for `ghcr.io` with package read access.

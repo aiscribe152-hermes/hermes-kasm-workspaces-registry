@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Bambu Studio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20b26b"/>
+      <stop offset="1" stop-color="#0b5f3c"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9f2e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#bg)"/>
+  <path d="M34 88h60l10 12H24z" fill="#17382b" opacity="0.9"/>
+  <path d="M36 38h56v50H36z" fill="none" stroke="#ffffff" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M44 48h40v12H44z" fill="#ffffff" opacity="0.95"/>
+  <path d="M54 74c0-10 20-10 20 0v14H54z" fill="url(#plate)" stroke="#17382b" stroke-width="4"/>
+  <circle cx="91" cy="94" r="7" fill="#ffffff"/>
+  <circle cx="37" cy="94" r="7" fill="#ffffff"/>
+</svg>
