@@ -1,0 +1,27 @@
+{
+  "description": "OpenSCAD is a single-application Kasm desktop workspace for parametric CAD and scripted 3D geometry, split out from Hermes Forge to keep the workspace focused and smaller.",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "openscad.svg",
+  "run_config": {
+    "hostname": "openscad"
+  },
+  "categories": [
+    "Engineering",
+    "Productivity"
+  ],
+  "friendly_name": "OpenSCAD",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "ghcr.io/aiscribe152-hermes/kasm-openscad:1.0",
+      "uncompressed_size_mb": 1500,
+      "available_tags": [
+        "1.0",
+        "latest"
+      ]
+    }
+  ]
+}

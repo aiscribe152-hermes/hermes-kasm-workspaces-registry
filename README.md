@@ -14,10 +14,17 @@ Current workspace entries:
   - Image: `ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.2`
   - Tags: `1.2`, `latest`
   - Tools: OpenSCAD, FreeCAD, Blender, Bambu Studio, git, Python, curl, jq, and build tools
+  - Status: retained until explicitly retired
 - FreeCAD
-  - Image: `ghcr.io/aiscribe152-hermes/hermes-kasm-freecad:1.0`
+  - Image: `ghcr.io/aiscribe152-hermes/kasm-freecad:1.0`
   - Tags: `1.0`, `latest`
   - Tools: FreeCAD
+- OpenSCAD
+  - Image: `ghcr.io/aiscribe152-hermes/kasm-openscad:1.0`
+  - Tags: `1.0`, `latest`
+  - Tools: OpenSCAD
+
+Standalone app images use the shorter `kasm-app_name` naming convention rather than `hermes-kasm-app_name`.
 
 ## Add this registry to Kasm Workspaces
 
@@ -33,17 +40,19 @@ Current workspace entries:
 
 6. Click `Add Registry`.
 7. Use the registry filter/icon to show the Hermes registry entries.
-8. Add/import the `Hermes Forge` workspace.
+8. Add/import the app workspace you want, such as `FreeCAD` or `OpenSCAD`.
 
 ## GHCR access
 
-The Forge workspace image is hosted at GitHub Container Registry:
+Workspace images are hosted at GitHub Container Registry:
 
 ```text
 ghcr.io/aiscribe152-hermes/hermes-kasm-forge:1.2
 ghcr.io/aiscribe152-hermes/hermes-kasm-forge:latest
-ghcr.io/aiscribe152-hermes/hermes-kasm-freecad:1.0
-ghcr.io/aiscribe152-hermes/hermes-kasm-freecad:latest
+ghcr.io/aiscribe152-hermes/kasm-freecad:1.0
+ghcr.io/aiscribe152-hermes/kasm-freecad:latest
+ghcr.io/aiscribe152-hermes/kasm-openscad:1.0
+ghcr.io/aiscribe152-hermes/kasm-openscad:latest
 ```
 
 If Kasm cannot pull the image anonymously, either make the GHCR package public or configure a Kasm Docker registry credential for `ghcr.io` with package read access.
@@ -59,4 +68,4 @@ workspace.json
 icon.svg or icon.png
 ```
 
-The GitHub Actions workflow builds the static registry and deploys it to the `gh-pages` branch.
+The GitHub Actions workflow builds the static registry and deploys it through GitHub Pages workflow deployment.
