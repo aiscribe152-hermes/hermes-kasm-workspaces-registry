@@ -1,5 +1,5 @@
 {
-  "description": "KiCad is a single-application Kasm desktop workspace for electronic schematic capture, PCB layout, and electronics CAD workflows.",
+  "description": "KiCad 10 is a single-application Kasm desktop workspace for electronic schematic capture, PCB layout, and electronics CAD workflows.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "kicad.svg",
   "run_config": {
