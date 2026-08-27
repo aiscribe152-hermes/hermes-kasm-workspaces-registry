@@ -16,9 +16,10 @@
   "compatibility": [
     {
       "version": "1.19.x",
-      "image": "ghcr.io/aiscribe152-hermes/kasm-kicad:1.19.0-rolling-weekly",
+      "image": "ghcr.io/aiscribe152-hermes/kasm-kicad:1.19.0-rolling-weekly-kicad10",
       "uncompressed_size_mb": 6500,
       "available_tags": [
+        "1.19.0-rolling-weekly-kicad10",
         "1.19.0-rolling-weekly",
         "latest"
       ]
